@@ -1,0 +1,48 @@
+form1 page back,,SDK,|50|155|1394|861|268435456|65920
+    form1 page back,,version,5.0
+    form1 page back,,loadlibs,
+    form1 page back,,groupid,9999999999
+    form1 page back,,groupby,0
+    form1 page back,,runpos,0|0
+    form1 page back,,DOCK,FFFF
+    form1 page back,,PARENT,
+    form1 page back,,MARGINS,
+    form1 page back,,AUTOSIZE,false
+    form1 page back,,JSON,{}
+    form1 page back,,TEXT,
+    form1 page back,,TOOLTIP,
+    form1 page back,,ENABLED,true
+    form1 page back,,VISIBLE,true
+    form1 page back,,FORECOLOR,&heeeeee
+    form1 page back,,BACKCOLOR,rgba(20<COMMA>20<COMMA>20<COMMA>.25)
+    form1 page back,,ICON,media/icons/off_dot.ico
+    form1 page back,,FONTNAME,verdana<COMMA> geneva<COMMA> sans-serif
+    form1 page back,,FONTSIZE,14px
+    form1 page back,,FONTBOLD,false
+    form1 page back,,FONTITALIC,false
+    form1 page back,,FONTUNDERLINE,false
+    form1 page back,,FONTSTRIKETHRU,false
+    form1 page back,,MENUBAR,
+    form1 page back,,TOOLBAR,
+    form1 page back,,STATUSBAR,
+    form1 page back,,SAVESTATE,false
+    form1 page back,,drag.x,
+    form1 page back,,drag.y,
+    form1 page back,,xdragrange,
+    form1 page back,,ydragrange,
+    form1 page back,,size.x,
+    form1 page back,,size.y,
+    form1 page back,,negadj,
+    form1 page back,,posadj,
+    form1 page back,,TAG,~_private<COLN> false<CR>autosize<COLN> false<CR>bind<COLN> false<CR>bindkey<COLN> <CR>category<COLN> <CR>class<COLN> <CR>clipmenu<COLN> true<CR>donottheme<COLN> false<CR>dragable<COLN> true<CR>flattenonpull<COLN> true<CR>hotkey<COLN> <CR>ignorezorder<COLN> false<CR>output<COLN> normal<CR>record<COLN> <CR>shadow<COLN> true<CR>sizeable<COLN> true<CR>theme<COLN> nimble-form<CR>toggleonflip<COLN> true<CR>useastheme<COLN> false<CR>watch<COLN> false<CR>lock-width<COLN> <CR>lock-top<COLN> <CR>lock-size<COLN> <CR>lock-pos<COLN> <CR>lock-left<COLN> <CR>lock-height<COLN> <CR>body.lock-height<COLN> <CR>body.version<COLN> v5.0~cursor<COLN> <CR>display<COLN> <CR>opacity<COLN> <CR>z-index<COLN> 2<CR>text-decoration<COLN> <CR>pointer-events<COLN> auto<CR>font-weight<COLN> normal<CR>font-style<COLN> normal<CR>font-size<COLN> 14px<CR>font-family<COLN> verdana<COMMA> geneva<COMMA> sans-serif<CR>body.vertical-align<COLN><CR>body.text-align<COLN> <CR>body.box-sizing<COLN> border-box<CR>body.background-color<COLN> #f0f0f0<CR>body.color<COLN> #eeeeee
+    form1 page back,,events,
+    form1 page back,,extend,{}
+    form1 page back,,GROUPIDS,
+    form1 page back,,WSTYLES,268435456
+    form1 page back,,WSTYLESEX,65920
+    form1 page back,,WIDTH,1394
+    form1 page back,,HEIGHT,861
+    form1 page back,,EDITPOS,50|155
+form1 page back,,SETVIEW,
+form1 page back,,HIDE,
+form1 page back,,REFRESH,true

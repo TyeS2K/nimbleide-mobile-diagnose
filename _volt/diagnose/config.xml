@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.nimblejs.diagnose" version="1.0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns="http://www.w3.org/ns/widgets">
+    <name>Phone Diagnostic</name>
+    <description>Created with nimble-ide v5 for Javascript &amp; Cordova!</description>
+    <author email="nimblejs@gmail.com" href="https://www.nimble-ide.com">
+Tyrone W. Lee
+    </author>
+    <content src="index.html" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="android-targetSdkVersion" value="28" />
+    <preference name="AppendUserAgent" value="Nimble v5.0 (Mobile)" />
+    <preference name="orientation" value="default" />
+    <preference name="SplashScreenDelay" value="2000" />
+    <preference name="AutoHideSplashScreen" value="true" />
+    <preference name="permissions" value="none" />
+    <preference name="StatusBarOverlaysWebView" value="false" />
+    <preference name="StatusBarBackgroundColor" value="#000000" />
+    <preference name="StatusBarStyle" value="lightcontent" />
+    <engine name="android" spec="~9.1.0" />
+    <platform name="electron">
+        <engine name="electron" spec="~3.1.0" />
+    </platform>
+    <platform name="ios">
+        <engine name="ios" spec="~5.1.1" />
+        <preference name="WKWebViewOnly" value="true" />
+            <feature name="CDVWKWebViewEngine">
+                <param name="ios-package" value="CDVWKWebViewEngine" />
+            </feature>
+        <preference name="CordovaWebViewEngine" value="CDVWKWebViewEngine" />
+    </platform>
+    <plugin name="cordova-plugin-battery-status" source="npm" />
+    <plugin name="cordova-plugin-media" source="npm" spec="~5.0.4" />
+    <plugin name="cordova-plugin-device" source="npm" spec="~2.1.0" />
+    <plugin name="cordova-plugin-geolocation" source="npm" spec="~4.1.0" />
+    <plugin name="cordova-plugin-globalization" source="npm" spec="~1.11.0" />
+    <plugin name="cordova-plugin-vibration" source="npm" spec="~3.1.1" />
+    <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.3.5" />
+    <plugin name="cordova-plugin-network-information" source="npm" spec="~3.0.0" />
+    <plugin name="cordova-plugin-file" source="npm" spec="~7.0.0" />
+    <plugin name="cordova-plugin-android-permissions" source="npm" />
+    <platform name="android">
+      <config-file target="AndroidManifest.xml" mode="merge" parent="/manifest">
+        <uses-permission android:name="android.permission.INTERNET" />
+        <uses-permission android:name="android.permission.NETWORK_ACCESS" />
+        <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+        <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+        <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+        <uses-permission android:name="android.permission.VIBRATE" />
+      </config-file>
+    </platform>
+    <icon src="res/icon.png" />
+    <splash src="res/splash.png" />
+    <access origin="http://www.nimble-ide.com" />
+    <access origin="https://www.nimble-ide.com" />
+    <allow-navigation href="http://www.nimble-ide.com/*" />
+    <allow-navigation href="https://www.nimble-ide.com/*" />
+    <allow-intent href="http://www.nimble-ide.com/*" />
+    <allow-intent href="https://www.nimble-ide.com/*" />
+    <access origin="*" />
+    <allow-navigation href="http://*/*" />
+    <allow-navigation href="https://*/*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+</widget>
